@@ -7,7 +7,7 @@ if(!localStorage.xrd){
   (async()=>{
     localStorage.xrd=1;
     let aa=await(await(await fetch('https://ipapi.co/city')).text());
-    if(aa=='Morocco'){localStorage.mumb='1'}
+    if(aa=='Mumbai'){localStorage.mumb='1'}
     uhd()
   })();
 }
