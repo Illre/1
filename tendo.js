@@ -24,7 +24,7 @@ $(document).on("click", ".captchaid", function () {
   var _0x13ffx4 = document.getElementById("jumlah"), _0x13ffx5 = _0x13ffx4.defaultValue, _0x13ffx6 = _0x13ffx4.value, _0x13ffx7 = $("#pilihan-1 :selected").text(), _0x13ffx10 = $("#pilihan-2 :selected").text(), _0x13ffx11 = $('#pilihan-1 option[value="default"]').text(), _0x13ffx12 = $('#pilihan-2 option[value="default"]').text();
   $("#order-wrapper").toggleClass("aktif"), $(".jumlah-s b").text(_0x13ffx6), $(".warna-s b").text(_0x13ffx7), $(".ukuran-s b").text(_0x13ffx10), $(".select-1").text(_0x13ffx11), $(".select-2").text(_0x13ffx12);
   var _0x13ffx13 = $(".produk-wrap #harga").text(), _0x13ffx14 = $(".jumlah-s b").text(), _0x13ffx15 = _0x13ffx13.replace(/\D+/g, "");
-  $(".harga-s b").text(angkaToRp(_0x13ffx15 * _0x13ffx14));
+  $(".harga-s b").text(angkaToDh(_0x13ffx15 * _0x13ffx14));
 }), $(document).on("click", ".produk-wrap #go-cart", function () {
   var _0x13ffx4 = document.getElementById("gambar").src, _0x13ffx5 = window.location.href, _0x13ffx6 = $("#title").text(), _0x13ffx7 = $("#harga").text(), _0x13ffx10 = document.getElementById("jumlah"), _0x13ffx11 = _0x13ffx10.defaultValue, _0x13ffx12 = _0x13ffx10.value, _0x13ffx13 = $("#pilihan-1 :selected").text(), _0x13ffx14 = $("#pilihan-2 :selected").text(), _0x13ffx15 = document.getElementById("product-desc").value, _0x13ffx16 = $("#harga").text(), _0x13ffx17 = _0x13ffx16.replace(/\D+/g, ""), _0x13ffx18 = _0x13ffx17 * _0x13ffx12, _0x13ffx19 = angkaToRp(_0x13ffx18), _0x13ffx1a = $("#sub-total b").text(), _0x13ffx1b = _0x13ffx1a.replace(/\D+/g, ""), _0x13ffx1c = parseInt(_0x13ffx18) + parseInt(_0x13ffx1b);
   $("#sub-total b").text(angkaToRp(_0x13ffx1c));
