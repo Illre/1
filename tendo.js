@@ -277,7 +277,7 @@ function run() {
   }(), $(document)[_0x46a1[83]](_0x46a1[41], _0x46a1[295], function () {
     var _0x3b36ee, _0x17a86f;
     _0x46a1[14] != $(_0x46a1[296])[_0x46a1[149]]() && (_0x3b36ee = $(_0x46a1[296])[_0x46a1[149]](), _0x17a86f = _0x46a1[297] + text_phone2 + (_0x46a1[31] + _0x3b36ee), window[_0x46a1[77]](_0x17a86f, _0x46a1[76]));
-  }), $(_0x46a1[299])[_0x46a1[298]]({loop: true, margin: 10, nav: true, autoplay: owl_autoplay, responsive: {0: {items: 1}, 600: {items: 1}, 1e3: {items: 1}}}), $(_0x46a1[280])[_0x46a1[162]](function () {
+  }), $(_0x46a1[299])[_0x46a1[298]]({rtl:true, loop: true, margin: 10, nav: true, autoplay: owl_autoplay, responsive: {0: {items: 1}, 600: {items: 1}, 1e3: {items: 1}}}), $(_0x46a1[280])[_0x46a1[162]](function () {
     var _0x24f98 = $(this)[_0x46a1[25]]()[_0x46a1[57]](/<!-- /g, _0x46a1[300])[_0x46a1[57]](/ -->/g, _0x46a1[160]);
     $(this)[_0x46a1[25]](_0x24f98);
   }), _0x168da6(), A = window, k = document, A[_0x46a1[301]] = function (_0x1cc9d9) {
