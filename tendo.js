@@ -1,11 +1,11 @@
-document.getElementById("checkout-box").innerHTML = localStorage.getItem("ck"), null === localStorage.getItem("sub2") ? $("#sub-total b").text("Rp. 0") : $("#sub-total b").text(localStorage.getItem("sub2"));
+document.getElementById("checkout-box").innerHTML = localStorage.getItem("ck"), null === localStorage.getItem("sub2") ? $("#sub-total b").text("MAD. 0") : $("#sub-total b").text(localStorage.getItem("sub2"));
 var select1 = $('#pilihan-1 option[value="default"]').text(), select2 = $('#pilihan-2 option[value="default"]').text();
 function angkaToRp(_0x13ffx4) {
   for (var _0x13ffx5 = "", _0x13ffx6 = _0x13ffx4.toString().split("").reverse().join(""), _0x13ffx7 = 0; _0x13ffx7 < _0x13ffx6.length; _0x13ffx7++) {
     0 == _0x13ffx7 % 3 && (_0x13ffx5 += _0x13ffx6.substr(_0x13ffx7, 3) + ".");
   }
   ;
-  return "Rp. " + _0x13ffx5.split("", _0x13ffx5.length - 1).reverse().join("");
+  return "MAD. " + _0x13ffx5.split("", _0x13ffx5.length - 1).reverse().join("");
 }
 var walink = "https://web.whatsapp.com/send", phone = text_phone, walink2 = "&text=" + text_wa, maillink = "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=", email = text_email, mailsubject = "&subject=" + text_mailsubject, maillink1 = "", maillink2 = "&body=" + text_mailbody;
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
