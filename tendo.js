@@ -1,6 +1,6 @@
 document.getElementById("checkout-box").innerHTML = localStorage.getItem("ck"), null === localStorage.getItem("sub2") ? $("#sub-total b").text("MAD. 0") : $("#sub-total b").text(localStorage.getItem("sub2"));
 var select1 = $('#pilihan-1 option[value="default"]').text(), select2 = $('#pilihan-2 option[value="default"]').text();
-function angkaToRp(_0x13ffx4) {
+function angkaToMAD(_0x13ffx4) {
   for (var _0x13ffx5 = "", _0x13ffx6 = _0x13ffx4.toString().split("").reverse().join(""), _0x13ffx7 = 0; _0x13ffx7 < _0x13ffx6.length; _0x13ffx7++) {
     0 == _0x13ffx7 % 3 && (_0x13ffx5 += _0x13ffx6.substr(_0x13ffx7, 3) + ".");
   }
@@ -24,10 +24,10 @@ $(document).on("click", ".captchaid", function () {
   var _0x13ffx4 = document.getElementById("jumlah"), _0x13ffx5 = _0x13ffx4.defaultValue, _0x13ffx6 = _0x13ffx4.value, _0x13ffx7 = $("#pilihan-1 :selected").text(), _0x13ffx10 = $("#pilihan-2 :selected").text(), _0x13ffx11 = $('#pilihan-1 option[value="default"]').text(), _0x13ffx12 = $('#pilihan-2 option[value="default"]').text();
   $("#order-wrapper").toggleClass("aktif"), $(".jumlah-s b").text(_0x13ffx6), $(".warna-s b").text(_0x13ffx7), $(".ukuran-s b").text(_0x13ffx10), $(".select-1").text(_0x13ffx11), $(".select-2").text(_0x13ffx12);
   var _0x13ffx13 = $(".produk-wrap #harga").text(), _0x13ffx14 = $(".jumlah-s b").text(), _0x13ffx15 = _0x13ffx13.replace(/\D+/g, "");
-  $(".harga-s b").text(angkaToRp(_0x13ffx15 * _0x13ffx14));
+  $(".harga-s b").text(angkaToMAD(_0x13ffx15 * _0x13ffx14));
 }), $(document).on("click", ".produk-wrap #go-cart", function () {
-  var _0x13ffx4 = document.getElementById("gambar").src, _0x13ffx5 = window.location.href, _0x13ffx6 = $("#title").text(), _0x13ffx7 = $("#harga").text(), _0x13ffx10 = document.getElementById("jumlah"), _0x13ffx11 = _0x13ffx10.defaultValue, _0x13ffx12 = _0x13ffx10.value, _0x13ffx13 = $("#pilihan-1 :selected").text(), _0x13ffx14 = $("#pilihan-2 :selected").text(), _0x13ffx15 = document.getElementById("product-desc").value, _0x13ffx16 = $("#harga").text(), _0x13ffx17 = _0x13ffx16.replace(/\D+/g, ""), _0x13ffx18 = _0x13ffx17 * _0x13ffx12, _0x13ffx19 = angkaToRp(_0x13ffx18), _0x13ffx1a = $("#sub-total b").text(), _0x13ffx1b = _0x13ffx1a.replace(/\D+/g, ""), _0x13ffx1c = parseInt(_0x13ffx18) + parseInt(_0x13ffx1b);
-  $("#sub-total b").text(angkaToRp(_0x13ffx1c));
+  var _0x13ffx4 = document.getElementById("gambar").src, _0x13ffx5 = window.location.href, _0x13ffx6 = $("#title").text(), _0x13ffx7 = $("#harga").text(), _0x13ffx10 = document.getElementById("jumlah"), _0x13ffx11 = _0x13ffx10.defaultValue, _0x13ffx12 = _0x13ffx10.value, _0x13ffx13 = $("#pilihan-1 :selected").text(), _0x13ffx14 = $("#pilihan-2 :selected").text(), _0x13ffx15 = document.getElementById("product-desc").value, _0x13ffx16 = $("#harga").text(), _0x13ffx17 = _0x13ffx16.replace(/\D+/g, ""), _0x13ffx18 = _0x13ffx17 * _0x13ffx12, _0x13ffx19 = angkaToMAD(_0x13ffx18), _0x13ffx1a = $("#sub-total b").text(), _0x13ffx1b = _0x13ffx1a.replace(/\D+/g, ""), _0x13ffx1c = parseInt(_0x13ffx18) + parseInt(_0x13ffx1b);
+  $("#sub-total b").text(angkaToMAD(_0x13ffx1c));
   var _0x13ffx1d = _0x13ffx6, _0x13ffx1e = $("#cart-num").text(), _0x13ffx1f = parseInt(_0x13ffx1e) + parseInt("1");
   _0x13ffx1d = _0x13ffx1d.replace(/\s/g, ""), document.getElementById("no-product").innerHTML = "", document.getElementById("cart-num").innerHTML = _0x13ffx1f, document.getElementById("checkout-box").innerHTML += '<div class="product-cart" id="produk' + _0x13ffx1d + '"><img src="' + _0x13ffx4 + '"><a href="' + _0x13ffx5 + '">' + _0x13ffx6 + '</a><sp>%0A</sp><div class="harga">' + _0x13ffx19 + "</div><sp>%0A</sp>Jumlah : <b>" + _0x13ffx12 + '</b><sp>%0A</sp><div class="varian1">' + select1 + " : <b>" + _0x13ffx13 + '</b></div><sp>%0A</sp><div class="varian2">' + select2 + " : <b>" + _0x13ffx14 + '</b></div><sp>%0A</sp><div class="catatan">' + wa_catatan + " : <b>" + _0x13ffx15 + '</b></div><sp>%0A====================%0A</sp><a id="hapus" class="hapus" href="javascript:void" onclick="hapus(),getElementById(`produk' + _0x13ffx1d + '`).remove();hapus2()">' + text_hapus + "</a></div>", $(".addtowish").toggleClass("aktif");
   var _0x13ffx20 = document.getElementById("checkout-box").innerHTML;
@@ -54,7 +54,7 @@ $(document).on("click", ".captchaid2", function () {
 function hapus() {
   var _0x13ffx4 = $("#sub-total b").text(), _0x13ffx5 = _0x13ffx4.replace(/\D+/g, ""), _0x13ffx6 = $(".product-cart").length;
   1 < _0x13ffx6 && $(".hapus").click(function () {
-    var _0x13ffx4 = $(this).parent(".product-cart").children(".harga").text(), _0x13ffx6 = _0x13ffx4.replace(/\D+/g, ""), _0x13ffx7 = parseInt(_0x13ffx5) - parseInt(_0x13ffx6), _0x13ffx10 = angkaToRp(_0x13ffx7);
+    var _0x13ffx4 = $(this).parent(".product-cart").children(".harga").text(), _0x13ffx6 = _0x13ffx4.replace(/\D+/g, ""), _0x13ffx7 = parseInt(_0x13ffx5) - parseInt(_0x13ffx6), _0x13ffx10 = angkaToMAD(_0x13ffx7);
     $("#sub-total b").text(_0x13ffx10), localStorage.setItem("sub2", _0x13ffx10);
   }), "1" == _0x13ffx6 && $(".hapus").click(function () {
     $("#sub-total b").text("MAD. 0"), localStorage.setItem("sub2", "MAD. 0");
