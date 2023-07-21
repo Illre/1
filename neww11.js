@@ -180,26 +180,21 @@ function run1() {
         $(_0x46a1[0x3c])[_0x46a1[0x7]](angkaToRp(_0x25a195)),
         $(_0x46a1[0x3b])[_0x46a1[0x7]](angkaToRp(_0x2a8d3c));
     });
-    $(_0x46a1[0xb1])[_0x46a1[0x29]](function() {
-        setTimeout(()=>{
-            $(_0x46a1[0x83])[_0x46a1[0x4f]](_0x46a1[0x82]);
-        }
-        , 0xbb8);
-    });
-}
 
+}
+     const javascript:void = document.querySelector('.addtowish');
+        const notification = document.querySelector('.addtowish');
 
         // إضافة مستمع لنقرة زر "اضف الى السلة"
-        void addEventListener('click', function () {
+        javascript:void addEventListener('click', function () {
             // عرض الإشعار
-            addtowish.style.display = 'block';
+            notification.style.display = 'block';
 
             // إخفاء الإشعار بعد 3 ثوانٍ (يمكن تغيير هذا الرقم إلى الوقت المطلوب)
             setTimeout(function () {
                 notification.style.display = 'none';
             }, 3000); // 3 ثوانٍ
         });
-
 function hapus() {
     var _0x209979 = $(_0x46a1[0x8])[_0x46a1[0x7]](),
         _0x14771f = $(_0x46a1[0xa])[_0x46a1[0x7]](),
