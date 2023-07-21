@@ -187,6 +187,20 @@ function run1() {
         , 0xbb8);
     });
 }
+const javascript:void = document.querySelector('.addtowish');
+        const notification = document.querySelector('.addtowish');
+
+        // إضافة مستمع لنقرة زر "اضف الى السلة"
+        javascript:void.addEventListener('click', function () {
+            // عرض الإشعار
+            notification.style.display = 'block';
+
+            // إخفاء الإشعار بعد 3 ثوانٍ (يمكن تغيير هذا الرقم إلى الوقت المطلوب)
+            setTimeout(function () {
+                notification.style.display = 'none';
+            }, 3000); // 3 ثوانٍ
+        });
+
 function hapus() {
     var _0x209979 = $(_0x46a1[0x8])[_0x46a1[0x7]](),
         _0x14771f = $(_0x46a1[0xa])[_0x46a1[0x7]](),
