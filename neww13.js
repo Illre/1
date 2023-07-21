@@ -182,7 +182,7 @@ function run1() {
     });
 
 }
-     const void = document.querySelector('.addtowish');
+     const go-cart = document.querySelector('.addtowish');
         const notification = document.querySelector('.addtowish');
 
         // إضافة مستمع لنقرة زر "اضف الى السلة"
