@@ -182,11 +182,11 @@ function run1() {
     });
 
 }
-     const go-cart = document.querySelector('.addtowish');
+     const addToCartButton = document.querySelector('.addtowish');
         const notification = document.querySelector('.addtowish');
 
         // إضافة مستمع لنقرة زر "اضف الى السلة"
-        void addEventListener('click', function () {
+        addToCartButton.addEventListener('click', function () {
             // عرض الإشعار
             notification.style.display = 'block';
 
