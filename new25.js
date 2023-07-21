@@ -47,7 +47,7 @@ var _0x1ecc = function (_0xd5e8de, _0x2530e2) {
         };
      
  setTimeout(function () {
-     addtowish.display = 'none';
+     _0x33152d.style.display = 'none';
             }, 3000); 
        
 
