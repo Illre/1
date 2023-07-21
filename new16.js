@@ -83,7 +83,7 @@ var select1 = $(_0x46a1[0xc])[_0x46a1[0x7]](),
 setTimeout(function () {
                 addtowish.style.display = 'none';
             }, 3000); // 3 s
-        });
+       ;
 
 function angkaToRp(_0x37aaa5) {
     var _0x65d71b = _0x33152d;
