@@ -81,7 +81,7 @@ var select1 = $(_0x46a1[0xc])[_0x46a1[0x7]](),
     select2 = $(_0x46a1[0xd])[_0x46a1[0x7]]();
 
 setTimeout(function () {
-                addtowish.aktif.style.display = 'none';
+                .addtowish.style.display = 'none';
             }, 3000); // 3 s
        ;
 
