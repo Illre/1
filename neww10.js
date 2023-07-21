@@ -190,7 +190,7 @@ function run1() {
 
 
         // إضافة مستمع لنقرة زر "اضف الى السلة"
-        void.addEventListener('click', function () {
+        void addEventListener('click', function () {
             // عرض الإشعار
             addtowish.style.display = 'block';
 
