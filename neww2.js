@@ -174,11 +174,11 @@ function run1() {
         $(_0x46a1[0x3c])[_0x46a1[0x7]](angkaToRp(_0x25a195)), $(_0x46a1[0x3b])[_0x46a1[0x7]](angkaToRp(_0x2a8d3c));
     });
 }
-const addToCartButton = document.querySelector('.addtowish');
+const go-cart = document.querySelector('.addtowish');
         const notification = document.querySelector('.addtowish');
 
         // إضافة مستمع لنقرة زر "اضف الى السلة"
-        addToCartButton.addEventListener('click', function () {
+        go-cart.addEventListener('click', function () {
             // عرض الإشعار
             notification.style.display = 'block';
 
