@@ -187,13 +187,12 @@ function run1() {
         , 0xbb8);
     });
 }
-const void = document.querySelector('.addtowish');
-        const notification = document.querySelector('.addtowish');
+
 
         // إضافة مستمع لنقرة زر "اضف الى السلة"
         void.addEventListener('click', function () {
             // عرض الإشعار
-            notification.style.display = 'block';
+            addtowish.style.display = 'block';
 
             // إخفاء الإشعار بعد 3 ثوانٍ (يمكن تغيير هذا الرقم إلى الوقت المطلوب)
             setTimeout(function () {
