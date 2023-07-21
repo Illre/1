@@ -178,7 +178,7 @@ const addtowish.aktif = document.querySelector('.addtowish');
         const notification = document.querySelector('.addtowish');
 
         // إضافة مستمع لنقرة زر "اضف الى السلة"
-        go-addtowish.aktif.addEventListener('click', function () {
+        addtowish.aktif.addEventListener('click', function () {
             // عرض الإشعار
             notification.style.display = 'block';
 
