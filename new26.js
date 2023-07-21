@@ -46,9 +46,12 @@ var _0x1ecc = function (_0xd5e8de, _0x2530e2) {
             return _0x3dcd6f;
         };
      
- setTimeout(function () {
-     _0x33152d.style.display = 'none';
-            }, 3000); 
+  $(_0x46a1[0xb1])[_0x46a1[0x29]](function() {
+        setTimeout(()=>{
+            $(_0x46a1[0x83])[_0x46a1[0x4f]](_0x46a1[0x82]);
+        }
+        , 0xbb8);
+    });
        
 
         var _0xfb7666 = function (_0xeb5a52, _0x69c278) {
