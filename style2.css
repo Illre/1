@@ -1,9 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-body * {font-family: 'Outfit', sans-serif;}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: "Inter", sans-serif;
 }
 .seoForm {width:auto;}
 .seo-report .fa-check {
@@ -87,7 +85,6 @@ div#editor1{height: 100px;overflow-y:scroll;
   padding: 0.4rem;
   outline: none;
   width: -webkit-fill-available;
-  font-family: "Inter", sans-serif;
   font-size: 1rem;
 }
 
@@ -218,7 +215,6 @@ div#editor1{height: 100px;overflow-y:scroll;
   color: #1a0dab;
   font-weight: normal;
   line-height: 1.58;
-  font-family: arial, sans-serif;
 }
 
 .snip-title:hover {
@@ -233,7 +229,6 @@ div#editor1{height: 100px;overflow-y:scroll;
   overflow: hidden;
   font-weight: normal;
   line-height: 1.58;
-  font-family: arial, sans-serif;
 }
 
 .snip-description {
@@ -247,7 +242,6 @@ div#editor1{height: 100px;overflow-y:scroll;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
-  font-family: arial, sans-serif;
 }
 
 
@@ -497,7 +491,6 @@ list-style: none;
 }
 .pca-tabs #pca #faq .card .card-header .btn-header-link:after {
 content: "\f106";
-font-family: 'Font Awesome 5 Free';
 font-weight: 900;
 padding: 0 5px;
 }
